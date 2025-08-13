@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProArt Drywall - Especialistas em Gesso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-hammer"></i>
+                    <span>ProArt Gesso</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Início</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">Especialistas</span> em Drywall
+                </h1>
+                <p class="hero-subtitle">
+                    Transformamos seus ambientes com qualidade profissional e acabamento perfeito.
+                </p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Orçamento Gratuito</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Garantia de Qualidade</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Entrega no Prazo</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="openWhatsApp()">
+                        <i class="fab fa-whatsapp"></i>
+                        Solicitar Orçamento
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToContact()">
+                        <i class="fas fa-phone"></i>
+                        Falar Conosco
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-star"></i>
+                        <span>5.0</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-users"></i>
+                        <span>+50 Clientes</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Entrega Rápida</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas em drywall para seu projeto</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Instalação de Drywall</h3>
+                    <p>Instalação profissional de placas de gesso acartonado com acabamento perfeito</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Acabamento</h3>
+                    <p>Acabamento fino com massa corrida, lixa e pintura para resultado impecável</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <h3>Projetos Personalizados</h3>
+                    <p>Criação de divisórias, sancas, tetos e projetos sob medida</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Reparo e manutenção de drywall existente com garantia de qualidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Por que escolher a ProArt?</h2>
+                    <p>Somos especialistas em drywall com mais de 10 anos de experiência no mercado. Nossa equipe é treinada e certificada para entregar o melhor resultado em cada projeto.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Entre em Contato</h2>
+                    <p>Estamos prontos para transformar seu projeto em realidade. Solicite um orçamento gratuito!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>Resposta em até 5 minutos</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>Atendimento de segunda a sexta</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horário</h4>
+                                <p>8h às 18h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="form-card">
+                        <h3>Solicite seu Orçamento</h3>
+                        <form id="leadForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Seu WhatsApp" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="">Selecione o serviço</option>
+                                    <option value="instalacao">Instalação de Drywall</option>
+                                    <option value="acabamento">Acabamento</option>
+                                    <option value="projeto">Projeto Personalizado</option>
+                                    <option value="manutencao">Manutenção</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Descreva seu projeto (opcional)"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">
+                                <i class="fab fa-whatsapp"></i>
+                                Enviar por WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-hammer"></i>
+                        <span>ProArt Drywall</span>
+                    </div>
+                    <p>Especialistas em drywall com qualidade e confiança</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li>Instalação de Gesso</li>
+                        <li>Acabamento</li>
+                        <li>Projetos Personalizados</li>
+                        <li>Manutenção</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp</li>
+                        <li><i class="fas fa-phone"></i> Telefone</li>
+                        <li><i class="fas fa-envelope"></i> Email</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ProArt Gesso. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
